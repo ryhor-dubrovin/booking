@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"classpath:features"},
         glue = "steps",
         tags = "blablabla",
-        plugin = { "pretty", "html:target/cucumber.html",
+        plugin = {"pretty", "html:target/cucumber.html",
                 "json:target/cucumber.json"}
 )
 public class BookingRunner extends AbstractTestNGCucumberTests {
